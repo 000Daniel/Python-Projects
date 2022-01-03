@@ -1,3 +1,4 @@
+# Read Me
 This script can accept three(3) numbers to solve a quadratic formula with.
 
 ## Usage:
