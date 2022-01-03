@@ -1,6 +1,6 @@
 This script can accept three(3) numbers to solve a quadratic formula with.
 
-# Usage:
+Usage:
   simply type in console: ```python3 Quadratic-Formula.py a b c```
   replace the 'a', 'b' and 'c' with your desired numbers.
 
@@ -11,4 +11,4 @@ Note: This software was a coding exercise, so expect issues with it.
 
 
 
-Publish/Release dates: 03.01.2022
+>Publish/Release dates: 03.01.2022
