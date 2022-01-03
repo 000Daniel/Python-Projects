@@ -1,5 +1,7 @@
-# Read Me
+# ReadMe - Info
+
 This script can accept three(3) numbers to solve a quadratic formula with.
+
 
 ## Usage:
   simply type in console: ```python3 Quadratic-Formula.py a b c```
