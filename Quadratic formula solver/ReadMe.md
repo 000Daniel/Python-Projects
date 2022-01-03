@@ -7,7 +7,6 @@ This script can accept three(3) numbers to solve a quadratic formula with.
 
 This software was programmed on Visual Studio Code (Python3).
 >Note: This is my first Python script written!
-
 >Note: This software was a coding exercise, so expect issues with it.
 
 
