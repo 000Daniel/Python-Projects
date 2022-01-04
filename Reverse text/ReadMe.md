@@ -10,9 +10,9 @@ This script accepts text and then reverses it.
   usage: ```python3 reverse.py "Hello World" -q```  
   
   
-This software was programmed on Visual Studio Code (Python3).
+This software was programmed in Visual Studio Code (Python3).
 > Note: This software was a coding exercise, so expect issues with it.
- 
- 
- 
-Publish/Release dates: 03.01.2022
+  
+  
+  
+Publish/Release dates: 04.01.2022
