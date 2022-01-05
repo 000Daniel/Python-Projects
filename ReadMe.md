@@ -9,13 +9,13 @@ Feel free to look around and try some of those scripts for yourself.
 <br />
 <br />
 ### Note:  
-   `Usually I write my Python scripts in Visual Studio Code with Python3.`  
+   🞄 Usually I write my Python scripts in Visual Studio Code with Python3.  
 <br />
-   `My projects usually are coding exercises, issues are to be expected.`  
+   🞄 My projects usually are coding exercises, issues are to be expected.  
 <br />
-   `> Publish date - refers to the upload date of the project.`  
+   🞄 Publish date - refers to the upload date of the project.  
 <br />
-   `> Release date - refers to when was the project finished.`  
+   🞄 Release date - refers to when was the project finished.  
 <br />
 <br />
 <br />
