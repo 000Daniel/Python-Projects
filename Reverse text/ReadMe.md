@@ -11,9 +11,7 @@ Version 2 - uses a 'for loop' to reverse the text.
    example: ```python3 reverse.py "Hello World" -q```<br />
 <br />
 <br />
-``` diff
-! This software was programmed in Visual Studio Code (Python3).
-```
+This software was programmed in Visual Studio Code (Python3).
 > Note: This software was a coding exercise, so expect issues with it.
 <br />
 <br />
