@@ -11,6 +11,6 @@ Feel free to look around and try some of those scripts for yourself.
    >Publish date - refers to the upload date of the project.  
    >Release date - refers to when was the project finished.  
 
-```dif
+```diff
 @@ created by https://github.com/000Daniel@@
 ```
