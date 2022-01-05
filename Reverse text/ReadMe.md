@@ -1,3 +1,4 @@
+<pre>
 ## ReadMe - Info
 
 This script accepts text and then reverses it.  
@@ -17,3 +18,4 @@ This software was programmed in Visual Studio Code (Python3).
     
     
 Publish/Release dates: 04.01.2022
+</pre>
