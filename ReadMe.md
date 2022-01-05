@@ -9,7 +9,7 @@ Feel free to look around and try some of those scripts for yourself.
 <br />
 <br />
 ### Note:  
-   🞄 Usually I write my Python scripts in Visual Studio Code using the Python3 framework.  
+   🞄 Usually I write my Python projects in Visual Studio Code using the Python3 framework.  
 <br />
    🞄 My projects usually are coding exercises, issues are to be expected.  
 <br />
