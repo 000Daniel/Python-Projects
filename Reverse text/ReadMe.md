@@ -1,7 +1,8 @@
 ## ReadMe - Info
 
 This script accepts text and then reverses it.
-
+Version 1 - uses a 'while loop' to reverse the text.
+Version 2 - uses a 'for loop' to reverse the text.
 
 ### Usage:
   simply type in console: ```python3 reverse.py "Hello World"```  
