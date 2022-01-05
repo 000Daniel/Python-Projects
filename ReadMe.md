@@ -1,8 +1,11 @@
 # Python Projects Repository
 
-Each folder holds a different project of mine.
-Some folders might contain multiple versions of a project of mine. 
-Feel free to look around and try some of those scripts for yourself.
+Each folder holds a different project of mine.  
+<br />
+Some folders might contain multiple versions of a project of mine.   
+<br />
+Feel free to look around and try some of those scripts for yourself.  
+<br />
 <br />
 <br />
 ### Note:  
