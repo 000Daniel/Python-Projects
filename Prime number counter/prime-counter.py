@@ -11,12 +11,12 @@ parser.add_argument('maxvalue', type=int, metavar='', nargs='?', help="pass a nu
 parser.add_argument('-q', '--quiet', action='store_true',help='don\'t print any results')
 parser.add_argument('-s', '--sort', action='store_true',help='sort the numbers (slow)')
 parser.add_argument('-f', '--file', action='store_true',help='store the result into a local file')
-args = parser.parse_args()  #converts the flag data into usable data
+args = parser.parse_args()  #converts the launch options data into usable data
 
                             #the script checks if the user entered a value
                             #and fixes it to a positive one
 if not args.maxvalue:
-    print("Error! please enter a valie")
+    print("Error! please enter a value")
     quit()
 if args.maxvalue < 0:
     args.maxvalue = args.maxvalue * (-1)
@@ -30,10 +30,10 @@ sqrtMaxValue = math.sqrt(args.maxvalue)
 for x in range(1,args.maxvalue + 1):
     skipCheck = 0
     numOfSuccess = 0
-                            #check if number('x') already exists in the PrimeList,
+                            #check if number('x') already exists in the NonPrimeList,
                             #if it does set 'skipCheck' to 1 so we won't calculate it.
                             #'skipCheck' resets for each number('x')
-    for s in PrimeList:
+    for s in NonPrimeList:
         if (s > x):
             break
         if (x == s):
@@ -48,32 +48,32 @@ for x in range(1,args.maxvalue + 1):
             if not x % y:
                 numOfSuccess += 1
         
-                            #if 'numOfSuccess' is atleast 2 add the number('x') to PrimeList, because it was
+                            #if 'numOfSuccess' is atleast 2 add the number('x') to NonPrimeList, because it was
                             #divided atleast once(not including by 1) without any remainders.
         if numOfSuccess >= 2:
-            PrimeList.append(x)
-                            #else add that number to NonPrimeList.
-                            #Non-prime * Non-prime = prime
-                            #output a squared NonPrime, converts it to an int(removes .0 remainder), and add
-                            #it to PrimeList.
-        else:
             NonPrimeList.append(x)
+                            #else add that number to PrimeList.
+                            #prime * prime = Non-prime
+                            #output a squared Prime, converts it to an int(removes .0 remainder), and add
+                            #it to NonPrimeList.
+        else:
+            PrimeList.append(x)
         if (x <= sqrtMaxValue):
             squaredNonPrime = x * x
-            PrimeList.append(int(squaredNonPrime))
+            NonPrimeList.append(int(squaredNonPrime))
 
                             #if the user wrote '-s' sort both Lists.
 if args.sort:
-    NonPrimeList.sort()
     PrimeList.sort()
+    NonPrimeList.sort()
 
                             #if the user wrote '-q' don't print anything.
                             #useful for a faster '-f' option.
 if not args.quiet:
-    print("Non Prime Numbers:")
-    print(NonPrimeList)
     print("Prime Numbers:")
     print(PrimeList)
+    print("Non Prime Numbers:")
+    print(NonPrimeList)
 
                             #if the user wrote '-f' delete the 'existing' files and create new ones with
                             #the relevant data inside.
